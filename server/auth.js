@@ -112,7 +112,7 @@ module.exports.register = (server, options, next) => {
       baseUrl: config('PUBLIC_WT_URL'),
       audience: 'urn:api-account-linking',
       secret: config('EXTENSION_SECRET'),
-      clientName: 'auth0-account-link',
+      clientName: 'auth0-account-link-kamatz',
       onLoginSuccess: (decoded, req, callback) => {
         if (decoded) {
           decoded.scope = scopes.map(scope => scope.value); // eslint-disable-line no-param-reassign
