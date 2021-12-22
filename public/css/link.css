@@ -1013,7 +1013,7 @@
 .auth0-lock.auth0-lock .auth0-lock-header {
   text-align: center;
   padding: 11px;
-  height: 118px;
+  height: auto !important;
   color: #333;
   position: relative;
   background: #fff;
@@ -1125,7 +1125,7 @@
 .auth0-lock.auth0-lock .auth0-lock-header-logo {
   width: auto;
   height: 58px;
-  display: inline-block;
+  display: none !important;
   margin: 0 0 11px;
   vertical-align: middle;
 }
