@@ -52,7 +52,7 @@ const getSubmitButton = (settings, t) => {
     </button>`;
 };
 
-module.exports = (dynamicSettings, identities, locale = 'en') =>
+module.exports = (dynamicSettings, identities, locale = 'fr') =>
   getSettings().then(storedSettings => {
     const settings = Object.assign(storedSettings, dynamicSettings);
     return resolveLocale(locale).then(t => `
