@@ -1023,7 +1023,7 @@
       .auth0-lock.auth0-lock .auth0-lock-header {
         text-align: center;
         padding: 11px;
-        height: 118px;
+        height: auto;
         color: #333;
         position: relative;
         background: #fff;
@@ -1135,7 +1135,7 @@
       .auth0-lock.auth0-lock .auth0-lock-header-logo {
         width: auto;
         height: 58px;
-        display: inline-block;
+        display: none;
         margin: 0 0 11px;
         vertical-align: middle;
       }
@@ -2217,7 +2217,7 @@
                         </g>
                       </g>
                     </svg>
-                    <div class="auth0-lock-name">Link Accounts</div>
+                    <div class="auth0-lock-name">Associer les comptes</div>
                   </div>
                 </div>
                 <div id="error-message" class="auth0-global-message auth0-global-message-error"></div>
@@ -2232,13 +2232,11 @@
                                 <div class="auth0-lock-form" id="content-container">
                                   <div>
                                     <p id="message">
-                                      It looks like you have another account
-                                      with the same email address. We recommend
-                                      you link these accounts.
+                                      Il existe déjà un compte avec cette adresse email. Nous vous recommandons d'associer ces comptes.
                                     </p>
                                     <p class="auth0-lock-alternative">
                                       <a class="auth0-lock-alternative-link" id="skip" href="#">
-                                        I want to skip this and create a new account. (Not recommended)
+                                        Ignorer et créer un nouveau compte. (Non recommandé)
                                       </a>
                                     </p>
                                   </div>
@@ -2254,7 +2252,7 @@
                 <div class="auth0-lock-actions">
                   <button class="auth0-lock-submit" type="button" id="link">
                     <span class="auth0-label-submit">
-                      <span id="label-value">Continue</span>
+                      <span id="label-value">Continuer</span>
                       <span>
                         <svg class="icon-text" width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Web/Submit/Active" transform="translate(-148.000000, -32.000000)" fill="#FFFFFF"><polygon id="Shape" points="148 33.4 149.4 32 155.4 38 149.4 44 148 42.6 152.6 38"></polygon></g></g></svg>
                       </span>
