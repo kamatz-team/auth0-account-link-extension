@@ -71,7 +71,6 @@ module.exports = (dynamicSettings, identities, locale = 'en') =>
                                 <div class="auth0-lock-header-bg-solid"></div>
                                 </div>
                                 <div class="auth0-lock-header-welcome">
-                                  ${getLogo(settings)}
                                   <div class="auth0-lock-name">${getTitle(settings, t)}</div>
                                 </div>
                             </div>
